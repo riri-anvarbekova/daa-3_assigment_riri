@@ -1,9 +1,9 @@
-package algorithms;
+package app.algorithms;
 
-import model.Edge;
-import model.Graph;
-import model.MSTMetrics;
-import model.MSTResult;
+import app.model.Edge;
+import app.model.Graph;
+import app.model.MSTMetrics;
+import app.model.MSTResult;
 
 import java.util.ArrayList;
 import java.util.Collections;

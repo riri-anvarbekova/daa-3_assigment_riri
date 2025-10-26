@@ -1,4 +1,4 @@
-package model;
+package app.model;
 
 public class Edge implements Comparable<Edge> {
     public String from, to;
