@@ -1,0 +1,66 @@
+{
+    "vertices": [
+        "City1",
+        "City2",
+        "City3",
+        "City4",
+        "City5",
+        "City6",
+        "City7",
+        "City8",
+        "City9",
+        "City10"
+    ],
+    "edges": [
+        {
+            "weight": 4,
+            "source": "City1",
+            "target": "City2"
+        },
+        {
+            "weight": 8,
+            "source": "City2",
+            "target": "City3"
+        },
+        {
+            "weight": 7,
+            "source": "City3",
+            "target": "City4"
+        },
+        {
+            "weight": 9,
+            "source": "City4",
+            "target": "City5"
+        },
+        {
+            "weight": 10,
+            "source": "City5",
+            "target": "City6"
+        },
+        {
+            "weight": 2,
+            "source": "City6",
+            "target": "City7"
+        },
+        {
+            "weight": 1,
+            "source": "City7",
+            "target": "City8"
+        },
+        {
+            "weight": 7,
+            "source": "City8",
+            "target": "City9"
+        },
+        {
+            "weight": 5,
+            "source": "City9",
+            "target": "City10"
+        },
+        {
+            "weight": 6,
+            "source": "City10",
+            "target": "City1"
+        }
+    ]
+}

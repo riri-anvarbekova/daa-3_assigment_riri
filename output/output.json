@@ -1,0 +1,5382 @@
+[
+    {
+        "graphName": "small_graphs.json_graph1",
+        "operations": 5,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 200,
+                "from": "Almaty",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 150,
+                "from": "Shymkent",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 250,
+                "from": "Shymkent",
+                "to": "Astana"
+            }
+        ],
+        "totalCost": 600,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "small_graphs.json_graph1",
+        "operations": 0,
+        "executionTimeMs": 1,
+        "edges": [
+            {
+                "weight": 150,
+                "from": "Shymkent",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 200,
+                "from": "Almaty",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 250,
+                "from": "Astana",
+                "to": "Shymkent"
+            }
+        ],
+        "totalCost": 600,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "small_graphs.json_graph2",
+        "operations": 8,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 180,
+                "from": "Almaty",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 150,
+                "from": "Shymkent",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 200,
+                "from": "Karaganda",
+                "to": "Astana"
+            },
+            {
+                "weight": 400,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            }
+        ],
+        "totalCost": 930,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "small_graphs.json_graph2",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 150,
+                "from": "Shymkent",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 180,
+                "from": "Almaty",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 200,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 400,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            }
+        ],
+        "totalCost": 930,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "small_graphs.json_graph3",
+        "operations": 5,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 220,
+                "from": "Astana",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 350,
+                "from": "Shymkent",
+                "to": "Aktau"
+            }
+        ],
+        "totalCost": 870,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "small_graphs.json_graph3",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 220,
+                "from": "Astana",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 350,
+                "from": "Shymkent",
+                "to": "Aktau"
+            }
+        ],
+        "totalCost": 870,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "small_graphs.json_graph4",
+        "operations": 9,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 180,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 220,
+                "from": "Karaganda",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 350,
+                "from": "Shymkent",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 400,
+                "from": "Aktobe",
+                "to": "Pavlodar"
+            }
+        ],
+        "totalCost": 1450,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "small_graphs.json_graph4",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 180,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 220,
+                "from": "Karaganda",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 350,
+                "from": "Shymkent",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 400,
+                "from": "Aktobe",
+                "to": "Pavlodar"
+            }
+        ],
+        "totalCost": 1450,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "small_graphs.json_graph5",
+        "operations": 7,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 200,
+                "from": "Almaty",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 280,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 150,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 180,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            }
+        ],
+        "totalCost": 810,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "small_graphs.json_graph5",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 150,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 180,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 200,
+                "from": "Almaty",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 280,
+                "from": "Almaty",
+                "to": "Astana"
+            }
+        ],
+        "totalCost": 810,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "medium_graphs.json_graph1",
+        "operations": 18,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 200,
+                "from": "Almaty",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 150,
+                "from": "Shymkent",
+                "to": "Kyzylorda"
+            },
+            {
+                "weight": 160,
+                "from": "Kyzylorda",
+                "to": "Taraz"
+            },
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 180,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 270,
+                "from": "Astana",
+                "to": "Kostanay"
+            },
+            {
+                "weight": 350,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 400,
+                "from": "Aktobe",
+                "to": "Pavlodar"
+            },
+            {
+                "weight": 450,
+                "from": "Pavlodar",
+                "to": "Ust-Kamenogorsk"
+            }
+        ],
+        "totalCost": 2460,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "medium_graphs.json_graph1",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 150,
+                "from": "Shymkent",
+                "to": "Kyzylorda"
+            },
+            {
+                "weight": 160,
+                "from": "Kyzylorda",
+                "to": "Taraz"
+            },
+            {
+                "weight": 180,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 200,
+                "from": "Almaty",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 270,
+                "from": "Kostanay",
+                "to": "Astana"
+            },
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 350,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 400,
+                "from": "Aktobe",
+                "to": "Pavlodar"
+            },
+            {
+                "weight": 450,
+                "from": "Pavlodar",
+                "to": "Ust-Kamenogorsk"
+            }
+        ],
+        "totalCost": 2460,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "medium_graphs.json_graph2",
+        "operations": 13,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 200,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 250,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 270,
+                "from": "Astana",
+                "to": "Kostanay"
+            },
+            {
+                "weight": 400,
+                "from": "Aktobe",
+                "to": "Pavlodar"
+            },
+            {
+                "weight": 350,
+                "from": "Pavlodar",
+                "to": "Ust-Kamenogorsk"
+            },
+            {
+                "weight": 220,
+                "from": "Ust-Kamenogorsk",
+                "to": "Semey"
+            }
+        ],
+        "totalCost": 1990,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "medium_graphs.json_graph2",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 150,
+                "from": "Shymkent",
+                "to": "Taraz"
+            },
+            {
+                "weight": 160,
+                "from": "Shymkent",
+                "to": "Kyzylorda"
+            },
+            {
+                "weight": 200,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 220,
+                "from": "Semey",
+                "to": "Ust-Kamenogorsk"
+            },
+            {
+                "weight": 250,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 270,
+                "from": "Kostanay",
+                "to": "Astana"
+            },
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 350,
+                "from": "Pavlodar",
+                "to": "Ust-Kamenogorsk"
+            },
+            {
+                "weight": 400,
+                "from": "Aktobe",
+                "to": "Pavlodar"
+            }
+        ],
+        "totalCost": 2300,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "medium_graphs.json_graph3",
+        "operations": 13,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 320,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 180,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 270,
+                "from": "Astana",
+                "to": "Kostanay"
+            },
+            {
+                "weight": 400,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 300,
+                "from": "Aktobe",
+                "to": "Taraz"
+            },
+            {
+                "weight": 200,
+                "from": "Taraz",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 150,
+                "from": "Shymkent",
+                "to": "Kyzylorda"
+            }
+        ],
+        "totalCost": 1820,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "medium_graphs.json_graph3",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 150,
+                "from": "Kyzylorda",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 180,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 180,
+                "from": "Ekibastuz",
+                "to": "Pavlodar"
+            },
+            {
+                "weight": 200,
+                "from": "Shymkent",
+                "to": "Taraz"
+            },
+            {
+                "weight": 220,
+                "from": "Semey",
+                "to": "Ust-Kamenogorsk"
+            },
+            {
+                "weight": 270,
+                "from": "Kostanay",
+                "to": "Astana"
+            },
+            {
+                "weight": 300,
+                "from": "Taraz",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 320,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 350,
+                "from": "Pavlodar",
+                "to": "Ust-Kamenogorsk"
+            },
+            {
+                "weight": 400,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            }
+        ],
+        "totalCost": 2570,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "medium_graphs.json_graph4",
+        "operations": 15,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 310,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 190,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 150,
+                "from": "Karaganda",
+                "to": "Zhezkazgan"
+            },
+            {
+                "weight": 280,
+                "from": "Astana",
+                "to": "Kostanay"
+            },
+            {
+                "weight": 360,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 310,
+                "from": "Aktobe",
+                "to": "Taraz"
+            },
+            {
+                "weight": 170,
+                "from": "Taraz",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 160,
+                "from": "Shymkent",
+                "to": "Kyzylorda"
+            }
+        ],
+        "totalCost": 1930,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "medium_graphs.json_graph4",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 150,
+                "from": "Zhezkazgan",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 160,
+                "from": "Kyzylorda",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 170,
+                "from": "Shymkent",
+                "to": "Taraz"
+            },
+            {
+                "weight": 190,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 200,
+                "from": "Ekibastuz",
+                "to": "Pavlodar"
+            },
+            {
+                "weight": 230,
+                "from": "Semey",
+                "to": "Ust-Kamenogorsk"
+            },
+            {
+                "weight": 280,
+                "from": "Kostanay",
+                "to": "Astana"
+            },
+            {
+                "weight": 310,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 310,
+                "from": "Taraz",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 360,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 400,
+                "from": "Pavlodar",
+                "to": "Ust-Kamenogorsk"
+            }
+        ],
+        "totalCost": 2760,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "medium_graphs.json_graph5",
+        "operations": 19,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 200,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 150,
+                "from": "Karaganda",
+                "to": "Zhezkazgan"
+            },
+            {
+                "weight": 270,
+                "from": "Astana",
+                "to": "Kostanay"
+            },
+            {
+                "weight": 350,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 200,
+                "from": "Aktobe",
+                "to": "Atyrau"
+            },
+            {
+                "weight": 400,
+                "from": "Aktobe",
+                "to": "Pavlodar"
+            },
+            {
+                "weight": 180,
+                "from": "Pavlodar",
+                "to": "Ekibastuz"
+            },
+            {
+                "weight": 450,
+                "from": "Pavlodar",
+                "to": "Ust-Kamenogorsk"
+            },
+            {
+                "weight": 220,
+                "from": "Ust-Kamenogorsk",
+                "to": "Semey"
+            }
+        ],
+        "totalCost": 2720,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "medium_graphs.json_graph5",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 150,
+                "from": "Zhezkazgan",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 160,
+                "from": "Taraz",
+                "to": "Kyzylorda"
+            },
+            {
+                "weight": 180,
+                "from": "Ekibastuz",
+                "to": "Pavlodar"
+            },
+            {
+                "weight": 200,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 200,
+                "from": "Atyrau",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 220,
+                "from": "Shymkent",
+                "to": "Taraz"
+            },
+            {
+                "weight": 220,
+                "from": "Semey",
+                "to": "Ust-Kamenogorsk"
+            },
+            {
+                "weight": 270,
+                "from": "Kostanay",
+                "to": "Astana"
+            },
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 350,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 400,
+                "from": "Aktobe",
+                "to": "Pavlodar"
+            },
+            {
+                "weight": 450,
+                "from": "Pavlodar",
+                "to": "Ust-Kamenogorsk"
+            }
+        ],
+        "totalCost": 3100,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "medium_graphs.json_graph6",
+        "operations": 19,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 180,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 150,
+                "from": "Karaganda",
+                "to": "Zhezkazgan"
+            },
+            {
+                "weight": 270,
+                "from": "Astana",
+                "to": "Kostanay"
+            },
+            {
+                "weight": 360,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 200,
+                "from": "Aktobe",
+                "to": "Atyrau"
+            },
+            {
+                "weight": 250,
+                "from": "Aktobe",
+                "to": "Oral"
+            },
+            {
+                "weight": 310,
+                "from": "Aktobe",
+                "to": "Taraz"
+            },
+            {
+                "weight": 200,
+                "from": "Taraz",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 150,
+                "from": "Shymkent",
+                "to": "Kyzylorda"
+            }
+        ],
+        "totalCost": 2370,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "medium_graphs.json_graph6",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 150,
+                "from": "Kyzylorda",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 150,
+                "from": "Zhezkazgan",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 180,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 180,
+                "from": "Ekibastuz",
+                "to": "Pavlodar"
+            },
+            {
+                "weight": 200,
+                "from": "Shymkent",
+                "to": "Taraz"
+            },
+            {
+                "weight": 200,
+                "from": "Atyrau",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 220,
+                "from": "Semey",
+                "to": "Ust-Kamenogorsk"
+            },
+            {
+                "weight": 250,
+                "from": "Oral",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 270,
+                "from": "Kostanay",
+                "to": "Astana"
+            },
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 310,
+                "from": "Taraz",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 360,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 400,
+                "from": "Pavlodar",
+                "to": "Ust-Kamenogorsk"
+            }
+        ],
+        "totalCost": 3170,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "medium_graphs.json_graph7",
+        "operations": 21,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 180,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 120,
+                "from": "Karaganda",
+                "to": "Temirtau"
+            },
+            {
+                "weight": 150,
+                "from": "Karaganda",
+                "to": "Zhezkazgan"
+            },
+            {
+                "weight": 270,
+                "from": "Astana",
+                "to": "Kostanay"
+            },
+            {
+                "weight": 360,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 200,
+                "from": "Aktobe",
+                "to": "Atyrau"
+            },
+            {
+                "weight": 250,
+                "from": "Aktobe",
+                "to": "Oral"
+            },
+            {
+                "weight": 310,
+                "from": "Aktobe",
+                "to": "Taraz"
+            },
+            {
+                "weight": 200,
+                "from": "Taraz",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 150,
+                "from": "Shymkent",
+                "to": "Kyzylorda"
+            }
+        ],
+        "totalCost": 2490,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "medium_graphs.json_graph7",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 120,
+                "from": "Temirtau",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 150,
+                "from": "Kyzylorda",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 150,
+                "from": "Zhezkazgan",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 180,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 180,
+                "from": "Ekibastuz",
+                "to": "Pavlodar"
+            },
+            {
+                "weight": 200,
+                "from": "Shymkent",
+                "to": "Taraz"
+            },
+            {
+                "weight": 200,
+                "from": "Atyrau",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 220,
+                "from": "Semey",
+                "to": "Ust-Kamenogorsk"
+            },
+            {
+                "weight": 250,
+                "from": "Oral",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 270,
+                "from": "Kostanay",
+                "to": "Astana"
+            },
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 310,
+                "from": "Taraz",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 360,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 400,
+                "from": "Pavlodar",
+                "to": "Ust-Kamenogorsk"
+            }
+        ],
+        "totalCost": 3290,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "medium_graphs.json_graph8",
+        "operations": 23,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 180,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 120,
+                "from": "Karaganda",
+                "to": "Temirtau"
+            },
+            {
+                "weight": 150,
+                "from": "Karaganda",
+                "to": "Zhezkazgan"
+            },
+            {
+                "weight": 270,
+                "from": "Astana",
+                "to": "Kostanay"
+            },
+            {
+                "weight": 360,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 200,
+                "from": "Aktobe",
+                "to": "Atyrau"
+            },
+            {
+                "weight": 250,
+                "from": "Aktobe",
+                "to": "Oral"
+            },
+            {
+                "weight": 310,
+                "from": "Aktobe",
+                "to": "Taraz"
+            },
+            {
+                "weight": 200,
+                "from": "Taraz",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 100,
+                "from": "Shymkent",
+                "to": "Turkestan"
+            },
+            {
+                "weight": 150,
+                "from": "Shymkent",
+                "to": "Kyzylorda"
+            }
+        ],
+        "totalCost": 2590,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "medium_graphs.json_graph8",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 100,
+                "from": "Turkestan",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 120,
+                "from": "Temirtau",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 150,
+                "from": "Kyzylorda",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 150,
+                "from": "Zhezkazgan",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 180,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 180,
+                "from": "Ekibastuz",
+                "to": "Pavlodar"
+            },
+            {
+                "weight": 200,
+                "from": "Shymkent",
+                "to": "Taraz"
+            },
+            {
+                "weight": 200,
+                "from": "Atyrau",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 220,
+                "from": "Semey",
+                "to": "Ust-Kamenogorsk"
+            },
+            {
+                "weight": 250,
+                "from": "Oral",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 270,
+                "from": "Kostanay",
+                "to": "Astana"
+            },
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 310,
+                "from": "Taraz",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 360,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 400,
+                "from": "Pavlodar",
+                "to": "Ust-Kamenogorsk"
+            }
+        ],
+        "totalCost": 3390,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "medium_graphs.json_graph9",
+        "operations": 25,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 180,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 120,
+                "from": "Karaganda",
+                "to": "Temirtau"
+            },
+            {
+                "weight": 150,
+                "from": "Karaganda",
+                "to": "Zhezkazgan"
+            },
+            {
+                "weight": 270,
+                "from": "Astana",
+                "to": "Kostanay"
+            },
+            {
+                "weight": 360,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 200,
+                "from": "Aktobe",
+                "to": "Atyrau"
+            },
+            {
+                "weight": 220,
+                "from": "Atyrau",
+                "to": "Baikonur"
+            },
+            {
+                "weight": 250,
+                "from": "Aktobe",
+                "to": "Oral"
+            },
+            {
+                "weight": 310,
+                "from": "Aktobe",
+                "to": "Taraz"
+            },
+            {
+                "weight": 200,
+                "from": "Taraz",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 100,
+                "from": "Shymkent",
+                "to": "Turkestan"
+            },
+            {
+                "weight": 150,
+                "from": "Shymkent",
+                "to": "Kyzylorda"
+            }
+        ],
+        "totalCost": 2810,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "medium_graphs.json_graph9",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 100,
+                "from": "Turkestan",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 120,
+                "from": "Temirtau",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 150,
+                "from": "Kyzylorda",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 150,
+                "from": "Zhezkazgan",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 180,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 180,
+                "from": "Ekibastuz",
+                "to": "Pavlodar"
+            },
+            {
+                "weight": 200,
+                "from": "Shymkent",
+                "to": "Taraz"
+            },
+            {
+                "weight": 200,
+                "from": "Atyrau",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 220,
+                "from": "Semey",
+                "to": "Ust-Kamenogorsk"
+            },
+            {
+                "weight": 220,
+                "from": "Baikonur",
+                "to": "Atyrau"
+            },
+            {
+                "weight": 250,
+                "from": "Oral",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 270,
+                "from": "Kostanay",
+                "to": "Astana"
+            },
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 310,
+                "from": "Taraz",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 360,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 400,
+                "from": "Pavlodar",
+                "to": "Ust-Kamenogorsk"
+            }
+        ],
+        "totalCost": 3610,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "medium_graphs.json_graph10",
+        "operations": 29,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 180,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 120,
+                "from": "Karaganda",
+                "to": "Temirtau"
+            },
+            {
+                "weight": 150,
+                "from": "Karaganda",
+                "to": "Zhezkazgan"
+            },
+            {
+                "weight": 160,
+                "from": "Karaganda",
+                "to": "Stepnogorsk"
+            },
+            {
+                "weight": 270,
+                "from": "Astana",
+                "to": "Kostanay"
+            },
+            {
+                "weight": 360,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 180,
+                "from": "Aktobe",
+                "to": "Rudny"
+            },
+            {
+                "weight": 200,
+                "from": "Aktobe",
+                "to": "Atyrau"
+            },
+            {
+                "weight": 220,
+                "from": "Atyrau",
+                "to": "Baikonur"
+            },
+            {
+                "weight": 250,
+                "from": "Aktobe",
+                "to": "Oral"
+            },
+            {
+                "weight": 310,
+                "from": "Aktobe",
+                "to": "Taraz"
+            },
+            {
+                "weight": 200,
+                "from": "Taraz",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 100,
+                "from": "Shymkent",
+                "to": "Turkestan"
+            },
+            {
+                "weight": 150,
+                "from": "Shymkent",
+                "to": "Kyzylorda"
+            }
+        ],
+        "totalCost": 3150,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "medium_graphs.json_graph10",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 100,
+                "from": "Turkestan",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 120,
+                "from": "Temirtau",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 150,
+                "from": "Kyzylorda",
+                "to": "Shymkent"
+            },
+            {
+                "weight": 150,
+                "from": "Zhezkazgan",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 160,
+                "from": "Stepnogorsk",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 180,
+                "from": "Astana",
+                "to": "Karaganda"
+            },
+            {
+                "weight": 180,
+                "from": "Ekibastuz",
+                "to": "Pavlodar"
+            },
+            {
+                "weight": 180,
+                "from": "Rudny",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 200,
+                "from": "Shymkent",
+                "to": "Taraz"
+            },
+            {
+                "weight": 200,
+                "from": "Atyrau",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 220,
+                "from": "Semey",
+                "to": "Ust-Kamenogorsk"
+            },
+            {
+                "weight": 220,
+                "from": "Baikonur",
+                "to": "Atyrau"
+            },
+            {
+                "weight": 250,
+                "from": "Oral",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 270,
+                "from": "Kostanay",
+                "to": "Astana"
+            },
+            {
+                "weight": 300,
+                "from": "Almaty",
+                "to": "Astana"
+            },
+            {
+                "weight": 310,
+                "from": "Taraz",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 360,
+                "from": "Karaganda",
+                "to": "Aktobe"
+            },
+            {
+                "weight": 400,
+                "from": "Pavlodar",
+                "to": "Ust-Kamenogorsk"
+            }
+        ],
+        "totalCost": 3950,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph1",
+        "operations": 37,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 560,
+                "from": "New York",
+                "to": "London"
+            },
+            {
+                "weight": 35,
+                "from": "London",
+                "to": "Paris"
+            },
+            {
+                "weight": 40,
+                "from": "Paris",
+                "to": "Berlin"
+            },
+            {
+                "weight": 105,
+                "from": "Berlin",
+                "to": "Rome"
+            },
+            {
+                "weight": 120,
+                "from": "Rome",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 230,
+                "from": "Moscow",
+                "to": "Dubai"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 140,
+                "from": "Bangkok",
+                "to": "Singapore"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Sydney"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 130,
+                "from": "Tokyo",
+                "to": "Beijing"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 400,
+                "from": "Seoul",
+                "to": "Delhi"
+            },
+            {
+                "weight": 450,
+                "from": "Delhi",
+                "to": "Cairo"
+            },
+            {
+                "weight": 500,
+                "from": "Cairo",
+                "to": "Toronto"
+            },
+            {
+                "weight": 220,
+                "from": "Toronto",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            }
+        ],
+        "totalCost": 5620,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph1",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 35,
+                "from": "London",
+                "to": "Paris"
+            },
+            {
+                "weight": 40,
+                "from": "Paris",
+                "to": "Berlin"
+            },
+            {
+                "weight": 105,
+                "from": "Berlin",
+                "to": "Rome"
+            },
+            {
+                "weight": 120,
+                "from": "Rome",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 130,
+                "from": "Tokyo",
+                "to": "Beijing"
+            },
+            {
+                "weight": 140,
+                "from": "Bangkok",
+                "to": "Singapore"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 220,
+                "from": "Toronto",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 230,
+                "from": "Moscow",
+                "to": "Dubai"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 400,
+                "from": "Seoul",
+                "to": "Delhi"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 450,
+                "from": "Delhi",
+                "to": "Cairo"
+            },
+            {
+                "weight": 500,
+                "from": "Cairo",
+                "to": "Toronto"
+            },
+            {
+                "weight": 560,
+                "from": "New York",
+                "to": "London"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Sydney"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Tokyo"
+            }
+        ],
+        "totalCost": 5620,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph2",
+        "operations": 37,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 680,
+                "from": "New York",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Sydney"
+            },
+            {
+                "weight": 630,
+                "from": "Sydney",
+                "to": "Singapore"
+            },
+            {
+                "weight": 140,
+                "from": "Singapore",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 380,
+                "from": "Bangkok",
+                "to": "Dubai"
+            },
+            {
+                "weight": 230,
+                "from": "Dubai",
+                "to": "Moscow"
+            },
+            {
+                "weight": 150,
+                "from": "Moscow",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 160,
+                "from": "Istanbul",
+                "to": "Berlin"
+            },
+            {
+                "weight": 40,
+                "from": "Berlin",
+                "to": "Paris"
+            },
+            {
+                "weight": 35,
+                "from": "Paris",
+                "to": "London"
+            },
+            {
+                "weight": 105,
+                "from": "London",
+                "to": "Rome"
+            },
+            {
+                "weight": 105,
+                "from": "Rome",
+                "to": "Cairo"
+            },
+            {
+                "weight": 450,
+                "from": "Cairo",
+                "to": "Delhi"
+            },
+            {
+                "weight": 140,
+                "from": "Delhi",
+                "to": "Beijing"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 560,
+                "from": "Seoul",
+                "to": "Toronto"
+            },
+            {
+                "weight": 220,
+                "from": "Toronto",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            }
+        ],
+        "totalCost": 5555,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph2",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 35,
+                "from": "Paris",
+                "to": "London"
+            },
+            {
+                "weight": 40,
+                "from": "Berlin",
+                "to": "Paris"
+            },
+            {
+                "weight": 105,
+                "from": "London",
+                "to": "Rome"
+            },
+            {
+                "weight": 105,
+                "from": "Rome",
+                "to": "Cairo"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 140,
+                "from": "Singapore",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 140,
+                "from": "Delhi",
+                "to": "Beijing"
+            },
+            {
+                "weight": 150,
+                "from": "Moscow",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 160,
+                "from": "Istanbul",
+                "to": "Berlin"
+            },
+            {
+                "weight": 220,
+                "from": "Toronto",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 230,
+                "from": "Dubai",
+                "to": "Moscow"
+            },
+            {
+                "weight": 380,
+                "from": "Bangkok",
+                "to": "Dubai"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 450,
+                "from": "Cairo",
+                "to": "Delhi"
+            },
+            {
+                "weight": 560,
+                "from": "Seoul",
+                "to": "Toronto"
+            },
+            {
+                "weight": 630,
+                "from": "Sydney",
+                "to": "Singapore"
+            },
+            {
+                "weight": 680,
+                "from": "New York",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Sydney"
+            }
+        ],
+        "totalCost": 5555,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph3",
+        "operations": 37,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 390,
+                "from": "New York",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 540,
+                "from": "Rio de Janeiro",
+                "to": "Cairo"
+            },
+            {
+                "weight": 105,
+                "from": "Cairo",
+                "to": "Rome"
+            },
+            {
+                "weight": 105,
+                "from": "Rome",
+                "to": "Paris"
+            },
+            {
+                "weight": 35,
+                "from": "Paris",
+                "to": "London"
+            },
+            {
+                "weight": 40,
+                "from": "London",
+                "to": "Berlin"
+            },
+            {
+                "weight": 160,
+                "from": "Berlin",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 230,
+                "from": "Moscow",
+                "to": "Dubai"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 140,
+                "from": "Bangkok",
+                "to": "Singapore"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Sydney"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 130,
+                "from": "Tokyo",
+                "to": "Beijing"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 400,
+                "from": "Seoul",
+                "to": "Delhi"
+            },
+            {
+                "weight": 560,
+                "from": "Delhi",
+                "to": "Toronto"
+            }
+        ],
+        "totalCost": 5525,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph3",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 35,
+                "from": "Paris",
+                "to": "London"
+            },
+            {
+                "weight": 40,
+                "from": "London",
+                "to": "Berlin"
+            },
+            {
+                "weight": 105,
+                "from": "Cairo",
+                "to": "Rome"
+            },
+            {
+                "weight": 105,
+                "from": "Rome",
+                "to": "Paris"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 130,
+                "from": "Tokyo",
+                "to": "Beijing"
+            },
+            {
+                "weight": 140,
+                "from": "Bangkok",
+                "to": "Singapore"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 160,
+                "from": "Berlin",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 230,
+                "from": "Moscow",
+                "to": "Dubai"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 390,
+                "from": "New York",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 400,
+                "from": "Seoul",
+                "to": "Delhi"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 540,
+                "from": "Rio de Janeiro",
+                "to": "Cairo"
+            },
+            {
+                "weight": 560,
+                "from": "Delhi",
+                "to": "Toronto"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Sydney"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Tokyo"
+            }
+        ],
+        "totalCost": 5525,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph4",
+        "operations": 30,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 555,
+                "from": "New York",
+                "to": "Paris"
+            },
+            {
+                "weight": 105,
+                "from": "Paris",
+                "to": "Berlin"
+            },
+            {
+                "weight": 105,
+                "from": "Berlin",
+                "to": "Rome"
+            },
+            {
+                "weight": 120,
+                "from": "Rome",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 550,
+                "from": "Moscow",
+                "to": "Beijing"
+            },
+            {
+                "weight": 140,
+                "from": "Beijing",
+                "to": "Delhi"
+            },
+            {
+                "weight": 400,
+                "from": "Delhi",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 560,
+                "from": "New York",
+                "to": "London"
+            },
+            {
+                "weight": 85,
+                "from": "London",
+                "to": "Toronto"
+            },
+            {
+                "weight": 560,
+                "from": "Toronto",
+                "to": "Seoul"
+            },
+            {
+                "weight": 420,
+                "from": "Seoul",
+                "to": "Dubai"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Singapore"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Sydney"
+            }
+        ],
+        "totalCost": 5540,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph4",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 85,
+                "from": "Toronto",
+                "to": "London"
+            },
+            {
+                "weight": 105,
+                "from": "Paris",
+                "to": "Berlin"
+            },
+            {
+                "weight": 105,
+                "from": "Berlin",
+                "to": "Rome"
+            },
+            {
+                "weight": 120,
+                "from": "Rome",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 140,
+                "from": "Beijing",
+                "to": "Delhi"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 380,
+                "from": "Bangkok",
+                "to": "Dubai"
+            },
+            {
+                "weight": 400,
+                "from": "Delhi",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 420,
+                "from": "Dubai",
+                "to": "Seoul"
+            },
+            {
+                "weight": 540,
+                "from": "Rio de Janeiro",
+                "to": "Cairo"
+            },
+            {
+                "weight": 550,
+                "from": "Moscow",
+                "to": "Beijing"
+            },
+            {
+                "weight": 555,
+                "from": "New York",
+                "to": "Paris"
+            },
+            {
+                "weight": 560,
+                "from": "Seoul",
+                "to": "Toronto"
+            },
+            {
+                "weight": 560,
+                "from": "London",
+                "to": "New York"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Sydney"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Singapore"
+            }
+        ],
+        "totalCost": 6710,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph5",
+        "operations": 18,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 80,
+                "from": "New York",
+                "to": "Toronto"
+            },
+            {
+                "weight": 420,
+                "from": "New York",
+                "to": "Dubai"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 140,
+                "from": "Bangkok",
+                "to": "Singapore"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Sydney"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Delhi"
+            },
+            {
+                "weight": 400,
+                "from": "Delhi",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 130,
+                "from": "Tokyo",
+                "to": "Beijing"
+            },
+            {
+                "weight": 420,
+                "from": "Tokyo",
+                "to": "Seoul"
+            }
+        ],
+        "totalCost": 3230,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph5",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 35,
+                "from": "London",
+                "to": "Paris"
+            },
+            {
+                "weight": 80,
+                "from": "Toronto",
+                "to": "New York"
+            },
+            {
+                "weight": 105,
+                "from": "Paris",
+                "to": "Rome"
+            },
+            {
+                "weight": 105,
+                "from": "Berlin",
+                "to": "Cairo"
+            },
+            {
+                "weight": 120,
+                "from": "Rome",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 130,
+                "from": "Beijing",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 140,
+                "from": "Bangkok",
+                "to": "Singapore"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 160,
+                "from": "Moscow",
+                "to": "Berlin"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 400,
+                "from": "Tokyo",
+                "to": "Delhi"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 420,
+                "from": "New York",
+                "to": "Dubai"
+            },
+            {
+                "weight": 420,
+                "from": "Seoul",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 520,
+                "from": "Rio de Janeiro",
+                "to": "London"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Sydney"
+            },
+            {
+                "weight": 630,
+                "from": "Delhi",
+                "to": "Singapore"
+            }
+        ],
+        "totalCost": 5055,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph6",
+        "operations": 32,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 390,
+                "from": "New York",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 560,
+                "from": "New York",
+                "to": "London"
+            },
+            {
+                "weight": 35,
+                "from": "London",
+                "to": "Paris"
+            },
+            {
+                "weight": 40,
+                "from": "Paris",
+                "to": "Berlin"
+            },
+            {
+                "weight": 85,
+                "from": "London",
+                "to": "Toronto"
+            },
+            {
+                "weight": 105,
+                "from": "Berlin",
+                "to": "Rome"
+            },
+            {
+                "weight": 120,
+                "from": "Rome",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 230,
+                "from": "Moscow",
+                "to": "Dubai"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 140,
+                "from": "Bangkok",
+                "to": "Singapore"
+            },
+            {
+                "weight": 560,
+                "from": "Toronto",
+                "to": "Delhi"
+            },
+            {
+                "weight": 400,
+                "from": "Delhi",
+                "to": "Seoul"
+            },
+            {
+                "weight": 120,
+                "from": "Seoul",
+                "to": "Beijing"
+            },
+            {
+                "weight": 130,
+                "from": "Beijing",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Sydney"
+            }
+        ],
+        "totalCost": 4075,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph6",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 35,
+                "from": "London",
+                "to": "Paris"
+            },
+            {
+                "weight": 40,
+                "from": "Paris",
+                "to": "Berlin"
+            },
+            {
+                "weight": 85,
+                "from": "Toronto",
+                "to": "London"
+            },
+            {
+                "weight": 105,
+                "from": "Berlin",
+                "to": "Rome"
+            },
+            {
+                "weight": 120,
+                "from": "Rome",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 130,
+                "from": "Tokyo",
+                "to": "Beijing"
+            },
+            {
+                "weight": 140,
+                "from": "Bangkok",
+                "to": "Singapore"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 230,
+                "from": "Moscow",
+                "to": "Dubai"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 390,
+                "from": "Los Angeles",
+                "to": "New York"
+            },
+            {
+                "weight": 400,
+                "from": "Seoul",
+                "to": "Delhi"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 540,
+                "from": "Rio de Janeiro",
+                "to": "Cairo"
+            },
+            {
+                "weight": 560,
+                "from": "New York",
+                "to": "London"
+            },
+            {
+                "weight": 560,
+                "from": "Delhi",
+                "to": "Toronto"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Sydney"
+            }
+        ],
+        "totalCost": 5025,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph7",
+        "operations": 32,
+        "executionTimeMs": 1,
+        "edges": [
+            {
+                "weight": 390,
+                "from": "New York",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 680,
+                "from": "New York",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Paris"
+            },
+            {
+                "weight": 35,
+                "from": "Paris",
+                "to": "London"
+            },
+            {
+                "weight": 40,
+                "from": "London",
+                "to": "Berlin"
+            },
+            {
+                "weight": 85,
+                "from": "London",
+                "to": "Toronto"
+            },
+            {
+                "weight": 105,
+                "from": "Berlin",
+                "to": "Rome"
+            },
+            {
+                "weight": 120,
+                "from": "Rome",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 230,
+                "from": "Moscow",
+                "to": "Dubai"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 140,
+                "from": "Bangkok",
+                "to": "Singapore"
+            },
+            {
+                "weight": 560,
+                "from": "Toronto",
+                "to": "Delhi"
+            },
+            {
+                "weight": 140,
+                "from": "Delhi",
+                "to": "Beijing"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Sydney"
+            }
+        ],
+        "totalCost": 4585,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph7",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 35,
+                "from": "Paris",
+                "to": "London"
+            },
+            {
+                "weight": 40,
+                "from": "London",
+                "to": "Berlin"
+            },
+            {
+                "weight": 85,
+                "from": "Toronto",
+                "to": "London"
+            },
+            {
+                "weight": 105,
+                "from": "Berlin",
+                "to": "Rome"
+            },
+            {
+                "weight": 120,
+                "from": "Rome",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 120,
+                "from": "Seoul",
+                "to": "Beijing"
+            },
+            {
+                "weight": 140,
+                "from": "Bangkok",
+                "to": "Singapore"
+            },
+            {
+                "weight": 140,
+                "from": "Beijing",
+                "to": "Delhi"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 230,
+                "from": "Moscow",
+                "to": "Dubai"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 390,
+                "from": "Los Angeles",
+                "to": "New York"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 540,
+                "from": "Rio de Janeiro",
+                "to": "Cairo"
+            },
+            {
+                "weight": 560,
+                "from": "Delhi",
+                "to": "Toronto"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Sydney"
+            },
+            {
+                "weight": 680,
+                "from": "New York",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Paris"
+            }
+        ],
+        "totalCost": 5535,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph8",
+        "operations": 6,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 390,
+                "from": "New York",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            }
+        ],
+        "totalCost": 1020,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph8",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 35,
+                "from": "London",
+                "to": "Paris"
+            },
+            {
+                "weight": 85,
+                "from": "Toronto",
+                "to": "London"
+            },
+            {
+                "weight": 105,
+                "from": "Paris",
+                "to": "Berlin"
+            },
+            {
+                "weight": 105,
+                "from": "Berlin",
+                "to": "Rome"
+            },
+            {
+                "weight": 120,
+                "from": "Rome",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 130,
+                "from": "Tokyo",
+                "to": "Beijing"
+            },
+            {
+                "weight": 140,
+                "from": "Bangkok",
+                "to": "Singapore"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 230,
+                "from": "Moscow",
+                "to": "Dubai"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 390,
+                "from": "New York",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 400,
+                "from": "Seoul",
+                "to": "Delhi"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 560,
+                "from": "Delhi",
+                "to": "Toronto"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Sydney"
+            }
+        ],
+        "totalCost": 4210,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph9",
+        "operations": 37,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 430,
+                "from": "New York",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 410,
+                "from": "Rio de Janeiro",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 220,
+                "from": "Mexico City",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 540,
+                "from": "New York",
+                "to": "Cairo"
+            },
+            {
+                "weight": 555,
+                "from": "New York",
+                "to": "Paris"
+            },
+            {
+                "weight": 105,
+                "from": "Paris",
+                "to": "Berlin"
+            },
+            {
+                "weight": 160,
+                "from": "Berlin",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 550,
+                "from": "Moscow",
+                "to": "Beijing"
+            },
+            {
+                "weight": 140,
+                "from": "Beijing",
+                "to": "Delhi"
+            },
+            {
+                "weight": 400,
+                "from": "Delhi",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Singapore"
+            },
+            {
+                "weight": 140,
+                "from": "Singapore",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Dubai"
+            },
+            {
+                "weight": 420,
+                "from": "Dubai",
+                "to": "Seoul"
+            },
+            {
+                "weight": 780,
+                "from": "Bangkok",
+                "to": "Sydney"
+            },
+            {
+                "weight": 800,
+                "from": "Tokyo",
+                "to": "Rome"
+            },
+            {
+                "weight": 105,
+                "from": "Rome",
+                "to": "London"
+            },
+            {
+                "weight": 85,
+                "from": "London",
+                "to": "Toronto"
+            }
+        ],
+        "totalCost": 7400,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph9",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 85,
+                "from": "Toronto",
+                "to": "London"
+            },
+            {
+                "weight": 105,
+                "from": "London",
+                "to": "Rome"
+            },
+            {
+                "weight": 105,
+                "from": "Paris",
+                "to": "Berlin"
+            },
+            {
+                "weight": 140,
+                "from": "Beijing",
+                "to": "Delhi"
+            },
+            {
+                "weight": 140,
+                "from": "Bangkok",
+                "to": "Singapore"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 160,
+                "from": "Berlin",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 400,
+                "from": "Delhi",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 420,
+                "from": "Dubai",
+                "to": "Seoul"
+            },
+            {
+                "weight": 430,
+                "from": "Rio de Janeiro",
+                "to": "New York"
+            },
+            {
+                "weight": 540,
+                "from": "Cairo",
+                "to": "New York"
+            },
+            {
+                "weight": 550,
+                "from": "Moscow",
+                "to": "Beijing"
+            },
+            {
+                "weight": 555,
+                "from": "New York",
+                "to": "Paris"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Dubai"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Singapore"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 800,
+                "from": "Rome",
+                "to": "Tokyo"
+            }
+        ],
+        "totalCost": 7400,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph10",
+        "operations": 37,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 390,
+                "from": "New York",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 420,
+                "from": "New York",
+                "to": "Dubai"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 630,
+                "from": "Dubai",
+                "to": "Singapore"
+            },
+            {
+                "weight": 550,
+                "from": "Singapore",
+                "to": "Moscow"
+            },
+            {
+                "weight": 560,
+                "from": "Moscow",
+                "to": "Toronto"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Delhi"
+            },
+            {
+                "weight": 780,
+                "from": "Bangkok",
+                "to": "Sydney"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Beijing"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 560,
+                "from": "Seoul",
+                "to": "London"
+            },
+            {
+                "weight": 160,
+                "from": "London",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 160,
+                "from": "Istanbul",
+                "to": "Berlin"
+            },
+            {
+                "weight": 105,
+                "from": "Berlin",
+                "to": "Rome"
+            },
+            {
+                "weight": 105,
+                "from": "Rome",
+                "to": "Paris"
+            },
+            {
+                "weight": 550,
+                "from": "Paris",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 410,
+                "from": "Rio de Janeiro",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 780,
+                "from": "Paris",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 680,
+                "from": "Tokyo",
+                "to": "Cairo"
+            }
+        ],
+        "totalCost": 8750,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph10",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 105,
+                "from": "Berlin",
+                "to": "Rome"
+            },
+            {
+                "weight": 105,
+                "from": "Paris",
+                "to": "Rome"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 160,
+                "from": "London",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 160,
+                "from": "Istanbul",
+                "to": "Berlin"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 390,
+                "from": "Los Angeles",
+                "to": "New York"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 420,
+                "from": "New York",
+                "to": "Dubai"
+            },
+            {
+                "weight": 550,
+                "from": "Moscow",
+                "to": "Singapore"
+            },
+            {
+                "weight": 550,
+                "from": "Rio de Janeiro",
+                "to": "Paris"
+            },
+            {
+                "weight": 560,
+                "from": "Toronto",
+                "to": "Moscow"
+            },
+            {
+                "weight": 560,
+                "from": "Seoul",
+                "to": "London"
+            },
+            {
+                "weight": 630,
+                "from": "Delhi",
+                "to": "Singapore"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Dubai"
+            },
+            {
+                "weight": 680,
+                "from": "Cairo",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Paris"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Beijing"
+            },
+            {
+                "weight": 780,
+                "from": "Bangkok",
+                "to": "Sydney"
+            }
+        ],
+        "totalCost": 8750,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph11",
+        "operations": 37,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 430,
+                "from": "New York",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 410,
+                "from": "Rio de Janeiro",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 220,
+                "from": "Mexico City",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 540,
+                "from": "New York",
+                "to": "Cairo"
+            },
+            {
+                "weight": 520,
+                "from": "Cairo",
+                "to": "London"
+            },
+            {
+                "weight": 85,
+                "from": "London",
+                "to": "Toronto"
+            },
+            {
+                "weight": 670,
+                "from": "New York",
+                "to": "Beijing"
+            },
+            {
+                "weight": 140,
+                "from": "Beijing",
+                "to": "Delhi"
+            },
+            {
+                "weight": 400,
+                "from": "Delhi",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Singapore"
+            },
+            {
+                "weight": 140,
+                "from": "Singapore",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 380,
+                "from": "Bangkok",
+                "to": "Dubai"
+            },
+            {
+                "weight": 800,
+                "from": "Tokyo",
+                "to": "Rome"
+            },
+            {
+                "weight": 160,
+                "from": "Rome",
+                "to": "Moscow"
+            },
+            {
+                "weight": 150,
+                "from": "Moscow",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 160,
+                "from": "Istanbul",
+                "to": "Berlin"
+            },
+            {
+                "weight": 105,
+                "from": "Berlin",
+                "to": "Paris"
+            },
+            {
+                "weight": 780,
+                "from": "Paris",
+                "to": "Sydney"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Seoul"
+            }
+        ],
+        "totalCost": 7650,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph11",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 85,
+                "from": "Toronto",
+                "to": "London"
+            },
+            {
+                "weight": 105,
+                "from": "Paris",
+                "to": "Berlin"
+            },
+            {
+                "weight": 140,
+                "from": "Beijing",
+                "to": "Delhi"
+            },
+            {
+                "weight": 140,
+                "from": "Bangkok",
+                "to": "Singapore"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 160,
+                "from": "Moscow",
+                "to": "Rome"
+            },
+            {
+                "weight": 160,
+                "from": "Berlin",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 400,
+                "from": "Delhi",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 430,
+                "from": "Rio de Janeiro",
+                "to": "New York"
+            },
+            {
+                "weight": 520,
+                "from": "London",
+                "to": "Cairo"
+            },
+            {
+                "weight": 540,
+                "from": "Cairo",
+                "to": "New York"
+            },
+            {
+                "weight": 670,
+                "from": "New York",
+                "to": "Beijing"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Singapore"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Paris"
+            },
+            {
+                "weight": 780,
+                "from": "Seoul",
+                "to": "Sydney"
+            },
+            {
+                "weight": 800,
+                "from": "Rome",
+                "to": "Tokyo"
+            }
+        ],
+        "totalCost": 7650,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph12",
+        "operations": 36,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 430,
+                "from": "New York",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 410,
+                "from": "Rio de Janeiro",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 220,
+                "from": "Mexico City",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 540,
+                "from": "New York",
+                "to": "Cairo"
+            },
+            {
+                "weight": 780,
+                "from": "New York",
+                "to": "Sydney"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Paris"
+            },
+            {
+                "weight": 105,
+                "from": "Paris",
+                "to": "Berlin"
+            },
+            {
+                "weight": 40,
+                "from": "Berlin",
+                "to": "London"
+            },
+            {
+                "weight": 85,
+                "from": "London",
+                "to": "Toronto"
+            },
+            {
+                "weight": 160,
+                "from": "Berlin",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 550,
+                "from": "Moscow",
+                "to": "Beijing"
+            },
+            {
+                "weight": 140,
+                "from": "Beijing",
+                "to": "Delhi"
+            },
+            {
+                "weight": 400,
+                "from": "Delhi",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Seoul"
+            },
+            {
+                "weight": 420,
+                "from": "Seoul",
+                "to": "Dubai"
+            },
+            {
+                "weight": 630,
+                "from": "Dubai",
+                "to": "Singapore"
+            },
+            {
+                "weight": 140,
+                "from": "Singapore",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Rome"
+            }
+        ],
+        "totalCost": 7540,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph12",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 40,
+                "from": "London",
+                "to": "Berlin"
+            },
+            {
+                "weight": 85,
+                "from": "Toronto",
+                "to": "London"
+            },
+            {
+                "weight": 105,
+                "from": "Paris",
+                "to": "Berlin"
+            },
+            {
+                "weight": 140,
+                "from": "Beijing",
+                "to": "Delhi"
+            },
+            {
+                "weight": 140,
+                "from": "Bangkok",
+                "to": "Singapore"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 160,
+                "from": "Berlin",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 400,
+                "from": "Delhi",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 420,
+                "from": "Dubai",
+                "to": "Seoul"
+            },
+            {
+                "weight": 430,
+                "from": "Rio de Janeiro",
+                "to": "New York"
+            },
+            {
+                "weight": 540,
+                "from": "Cairo",
+                "to": "New York"
+            },
+            {
+                "weight": 550,
+                "from": "Moscow",
+                "to": "Beijing"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Dubai"
+            },
+            {
+                "weight": 780,
+                "from": "New York",
+                "to": "Sydney"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Rome"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Paris"
+            },
+            {
+                "weight": 780,
+                "from": "Seoul",
+                "to": "Sydney"
+            }
+        ],
+        "totalCost": 7540,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph13",
+        "operations": 33,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 80,
+                "from": "New York",
+                "to": "Toronto"
+            },
+            {
+                "weight": 420,
+                "from": "New York",
+                "to": "Dubai"
+            },
+            {
+                "weight": 210,
+                "from": "Dubai",
+                "to": "Delhi"
+            },
+            {
+                "weight": 400,
+                "from": "Delhi",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 430,
+                "from": "New York",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 410,
+                "from": "Rio de Janeiro",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 220,
+                "from": "Mexico City",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 630,
+                "from": "Dubai",
+                "to": "Singapore"
+            },
+            {
+                "weight": 420,
+                "from": "Singapore",
+                "to": "Seoul"
+            },
+            {
+                "weight": 120,
+                "from": "Seoul",
+                "to": "Beijing"
+            },
+            {
+                "weight": 800,
+                "from": "Tokyo",
+                "to": "Rome"
+            },
+            {
+                "weight": 105,
+                "from": "Rome",
+                "to": "Cairo"
+            },
+            {
+                "weight": 160,
+                "from": "Rome",
+                "to": "Moscow"
+            },
+            {
+                "weight": 150,
+                "from": "Moscow",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 160,
+                "from": "Istanbul",
+                "to": "Berlin"
+            },
+            {
+                "weight": 105,
+                "from": "Berlin",
+                "to": "Paris"
+            },
+            {
+                "weight": 35,
+                "from": "Paris",
+                "to": "London"
+            }
+        ],
+        "totalCost": 4855,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph13",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 35,
+                "from": "London",
+                "to": "Paris"
+            },
+            {
+                "weight": 80,
+                "from": "Toronto",
+                "to": "New York"
+            },
+            {
+                "weight": 105,
+                "from": "Cairo",
+                "to": "Rome"
+            },
+            {
+                "weight": 105,
+                "from": "Paris",
+                "to": "Berlin"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 160,
+                "from": "Moscow",
+                "to": "Rome"
+            },
+            {
+                "weight": 160,
+                "from": "Berlin",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 210,
+                "from": "Dubai",
+                "to": "Delhi"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 400,
+                "from": "Delhi",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 420,
+                "from": "New York",
+                "to": "Dubai"
+            },
+            {
+                "weight": 420,
+                "from": "Seoul",
+                "to": "Singapore"
+            },
+            {
+                "weight": 430,
+                "from": "Rio de Janeiro",
+                "to": "New York"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Dubai"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 800,
+                "from": "Rome",
+                "to": "Tokyo"
+            }
+        ],
+        "totalCost": 5635,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph14",
+        "operations": 19,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 430,
+                "from": "New York",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 410,
+                "from": "Rio de Janeiro",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 220,
+                "from": "Mexico City",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 540,
+                "from": "New York",
+                "to": "Cairo"
+            },
+            {
+                "weight": 680,
+                "from": "New York",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 130,
+                "from": "Tokyo",
+                "to": "Beijing"
+            },
+            {
+                "weight": 140,
+                "from": "Beijing",
+                "to": "Delhi"
+            },
+            {
+                "weight": 800,
+                "from": "Tokyo",
+                "to": "Rome"
+            },
+            {
+                "weight": 105,
+                "from": "Rome",
+                "to": "London"
+            },
+            {
+                "weight": 85,
+                "from": "London",
+                "to": "Toronto"
+            }
+        ],
+        "totalCost": 3540,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph14",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 85,
+                "from": "Toronto",
+                "to": "London"
+            },
+            {
+                "weight": 105,
+                "from": "London",
+                "to": "Rome"
+            },
+            {
+                "weight": 105,
+                "from": "Paris",
+                "to": "Berlin"
+            },
+            {
+                "weight": 130,
+                "from": "Tokyo",
+                "to": "Beijing"
+            },
+            {
+                "weight": 140,
+                "from": "Beijing",
+                "to": "Delhi"
+            },
+            {
+                "weight": 140,
+                "from": "Bangkok",
+                "to": "Singapore"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 160,
+                "from": "Berlin",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 430,
+                "from": "Rio de Janeiro",
+                "to": "New York"
+            },
+            {
+                "weight": 540,
+                "from": "Cairo",
+                "to": "New York"
+            },
+            {
+                "weight": 630,
+                "from": "Sydney",
+                "to": "Singapore"
+            },
+            {
+                "weight": 680,
+                "from": "New York",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 780,
+                "from": "Seoul",
+                "to": "Sydney"
+            },
+            {
+                "weight": 800,
+                "from": "Rome",
+                "to": "Tokyo"
+            }
+        ],
+        "totalCost": 5885,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph15",
+        "operations": 25,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 80,
+                "from": "New York",
+                "to": "Toronto"
+            },
+            {
+                "weight": 430,
+                "from": "New York",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 410,
+                "from": "Rio de Janeiro",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 220,
+                "from": "Mexico City",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 540,
+                "from": "Los Angeles",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 130,
+                "from": "Tokyo",
+                "to": "Beijing"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 420,
+                "from": "Seoul",
+                "to": "Singapore"
+            },
+            {
+                "weight": 560,
+                "from": "New York",
+                "to": "London"
+            },
+            {
+                "weight": 35,
+                "from": "London",
+                "to": "Paris"
+            },
+            {
+                "weight": 40,
+                "from": "Paris",
+                "to": "Berlin"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Sydney"
+            }
+        ],
+        "totalCost": 3615,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph15",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 35,
+                "from": "London",
+                "to": "Paris"
+            },
+            {
+                "weight": 40,
+                "from": "Berlin",
+                "to": "Paris"
+            },
+            {
+                "weight": 80,
+                "from": "Toronto",
+                "to": "New York"
+            },
+            {
+                "weight": 105,
+                "from": "Cairo",
+                "to": "Rome"
+            },
+            {
+                "weight": 120,
+                "from": "Rome",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 130,
+                "from": "Tokyo",
+                "to": "Beijing"
+            },
+            {
+                "weight": 140,
+                "from": "Delhi",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 230,
+                "from": "Moscow",
+                "to": "Dubai"
+            },
+            {
+                "weight": 380,
+                "from": "Bangkok",
+                "to": "Dubai"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 420,
+                "from": "Seoul",
+                "to": "Singapore"
+            },
+            {
+                "weight": 430,
+                "from": "Rio de Janeiro",
+                "to": "New York"
+            },
+            {
+                "weight": 540,
+                "from": "Los Angeles",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 560,
+                "from": "New York",
+                "to": "London"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Sydney"
+            }
+        ],
+        "totalCost": 4740,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph16",
+        "operations": 37,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 430,
+                "from": "New York",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 410,
+                "from": "Rio de Janeiro",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 220,
+                "from": "Mexico City",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 540,
+                "from": "New York",
+                "to": "Cairo"
+            },
+            {
+                "weight": 670,
+                "from": "New York",
+                "to": "Beijing"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 420,
+                "from": "Seoul",
+                "to": "Singapore"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Dubai"
+            },
+            {
+                "weight": 210,
+                "from": "Dubai",
+                "to": "Delhi"
+            },
+            {
+                "weight": 400,
+                "from": "Delhi",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Sydney"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 800,
+                "from": "Tokyo",
+                "to": "Rome"
+            },
+            {
+                "weight": 160,
+                "from": "Rome",
+                "to": "Moscow"
+            },
+            {
+                "weight": 150,
+                "from": "Moscow",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 160,
+                "from": "Istanbul",
+                "to": "Berlin"
+            },
+            {
+                "weight": 105,
+                "from": "Berlin",
+                "to": "Paris"
+            },
+            {
+                "weight": 35,
+                "from": "Paris",
+                "to": "London"
+            },
+            {
+                "weight": 85,
+                "from": "London",
+                "to": "Toronto"
+            }
+        ],
+        "totalCost": 7105,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph16",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 35,
+                "from": "London",
+                "to": "Paris"
+            },
+            {
+                "weight": 85,
+                "from": "Toronto",
+                "to": "London"
+            },
+            {
+                "weight": 105,
+                "from": "Paris",
+                "to": "Berlin"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 160,
+                "from": "Moscow",
+                "to": "Rome"
+            },
+            {
+                "weight": 160,
+                "from": "Berlin",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 210,
+                "from": "Dubai",
+                "to": "Delhi"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 400,
+                "from": "Delhi",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 420,
+                "from": "Seoul",
+                "to": "Singapore"
+            },
+            {
+                "weight": 430,
+                "from": "Rio de Janeiro",
+                "to": "New York"
+            },
+            {
+                "weight": 540,
+                "from": "Cairo",
+                "to": "New York"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Dubai"
+            },
+            {
+                "weight": 670,
+                "from": "New York",
+                "to": "Beijing"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Sydney"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 800,
+                "from": "Rome",
+                "to": "Tokyo"
+            }
+        ],
+        "totalCost": 7105,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph17",
+        "operations": 21,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 80,
+                "from": "New York",
+                "to": "Toronto"
+            },
+            {
+                "weight": 430,
+                "from": "New York",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 410,
+                "from": "Rio de Janeiro",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 220,
+                "from": "Mexico City",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 680,
+                "from": "New York",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 400,
+                "from": "Tokyo",
+                "to": "Delhi"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Paris"
+            },
+            {
+                "weight": 35,
+                "from": "Paris",
+                "to": "London"
+            },
+            {
+                "weight": 40,
+                "from": "London",
+                "to": "Berlin"
+            },
+            {
+                "weight": 105,
+                "from": "Berlin",
+                "to": "Rome"
+            },
+            {
+                "weight": 105,
+                "from": "Rome",
+                "to": "Cairo"
+            }
+        ],
+        "totalCost": 3285,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph17",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 35,
+                "from": "Paris",
+                "to": "London"
+            },
+            {
+                "weight": 40,
+                "from": "London",
+                "to": "Berlin"
+            },
+            {
+                "weight": 80,
+                "from": "Toronto",
+                "to": "New York"
+            },
+            {
+                "weight": 105,
+                "from": "Berlin",
+                "to": "Rome"
+            },
+            {
+                "weight": 105,
+                "from": "Cairo",
+                "to": "Rome"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 150,
+                "from": "Moscow",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 400,
+                "from": "Delhi",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 420,
+                "from": "Seoul",
+                "to": "Singapore"
+            },
+            {
+                "weight": 430,
+                "from": "Rio de Janeiro",
+                "to": "New York"
+            },
+            {
+                "weight": 630,
+                "from": "Sydney",
+                "to": "Singapore"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Dubai"
+            },
+            {
+                "weight": 680,
+                "from": "New York",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Paris"
+            }
+        ],
+        "totalCost": 5615,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph18",
+        "operations": 33,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 420,
+                "from": "New York",
+                "to": "Dubai"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 430,
+                "from": "New York",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 410,
+                "from": "Rio de Janeiro",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 220,
+                "from": "Mexico City",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 540,
+                "from": "New York",
+                "to": "Cairo"
+            },
+            {
+                "weight": 630,
+                "from": "Dubai",
+                "to": "Singapore"
+            },
+            {
+                "weight": 420,
+                "from": "Singapore",
+                "to": "Seoul"
+            },
+            {
+                "weight": 120,
+                "from": "Seoul",
+                "to": "Beijing"
+            },
+            {
+                "weight": 780,
+                "from": "Bangkok",
+                "to": "Sydney"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 400,
+                "from": "Tokyo",
+                "to": "Delhi"
+            },
+            {
+                "weight": 800,
+                "from": "Tokyo",
+                "to": "Rome"
+            },
+            {
+                "weight": 160,
+                "from": "Rome",
+                "to": "Moscow"
+            },
+            {
+                "weight": 150,
+                "from": "Moscow",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 160,
+                "from": "Istanbul",
+                "to": "London"
+            },
+            {
+                "weight": 85,
+                "from": "London",
+                "to": "Toronto"
+            }
+        ],
+        "totalCost": 6885,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph18",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 85,
+                "from": "Toronto",
+                "to": "London"
+            },
+            {
+                "weight": 105,
+                "from": "Berlin",
+                "to": "Paris"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 160,
+                "from": "London",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 160,
+                "from": "Moscow",
+                "to": "Rome"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 400,
+                "from": "Delhi",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 420,
+                "from": "New York",
+                "to": "Dubai"
+            },
+            {
+                "weight": 420,
+                "from": "Seoul",
+                "to": "Singapore"
+            },
+            {
+                "weight": 430,
+                "from": "Rio de Janeiro",
+                "to": "New York"
+            },
+            {
+                "weight": 540,
+                "from": "Cairo",
+                "to": "New York"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Dubai"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Sydney"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Beijing"
+            },
+            {
+                "weight": 800,
+                "from": "Rome",
+                "to": "Tokyo"
+            }
+        ],
+        "totalCost": 6990,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph19",
+        "operations": 36,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 80,
+                "from": "New York",
+                "to": "Toronto"
+            },
+            {
+                "weight": 430,
+                "from": "New York",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 410,
+                "from": "Rio de Janeiro",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 220,
+                "from": "Mexico City",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 560,
+                "from": "New York",
+                "to": "London"
+            },
+            {
+                "weight": 35,
+                "from": "London",
+                "to": "Paris"
+            },
+            {
+                "weight": 105,
+                "from": "Paris",
+                "to": "Berlin"
+            },
+            {
+                "weight": 160,
+                "from": "Berlin",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 160,
+                "from": "Moscow",
+                "to": "Rome"
+            },
+            {
+                "weight": 105,
+                "from": "Rome",
+                "to": "Cairo"
+            },
+            {
+                "weight": 780,
+                "from": "Paris",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 400,
+                "from": "Tokyo",
+                "to": "Delhi"
+            },
+            {
+                "weight": 210,
+                "from": "Delhi",
+                "to": "Dubai"
+            },
+            {
+                "weight": 630,
+                "from": "Dubai",
+                "to": "Singapore"
+            },
+            {
+                "weight": 420,
+                "from": "Singapore",
+                "to": "Seoul"
+            },
+            {
+                "weight": 120,
+                "from": "Seoul",
+                "to": "Beijing"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Sydney"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Bangkok"
+            }
+        ],
+        "totalCost": 6385,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph19",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 35,
+                "from": "London",
+                "to": "Paris"
+            },
+            {
+                "weight": 80,
+                "from": "Toronto",
+                "to": "New York"
+            },
+            {
+                "weight": 105,
+                "from": "Cairo",
+                "to": "Rome"
+            },
+            {
+                "weight": 105,
+                "from": "Paris",
+                "to": "Berlin"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 160,
+                "from": "Moscow",
+                "to": "Rome"
+            },
+            {
+                "weight": 160,
+                "from": "Berlin",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 210,
+                "from": "Dubai",
+                "to": "Delhi"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 400,
+                "from": "Delhi",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 420,
+                "from": "Seoul",
+                "to": "Singapore"
+            },
+            {
+                "weight": 430,
+                "from": "Rio de Janeiro",
+                "to": "New York"
+            },
+            {
+                "weight": 560,
+                "from": "New York",
+                "to": "London"
+            },
+            {
+                "weight": 630,
+                "from": "Sydney",
+                "to": "Singapore"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Dubai"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Paris"
+            },
+            {
+                "weight": 780,
+                "from": "Bangkok",
+                "to": "Sydney"
+            }
+        ],
+        "totalCost": 6385,
+        "algorithm": "Kruskal"
+    },
+    {
+        "graphName": "large_graphs.json_graph20",
+        "operations": 37,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 430,
+                "from": "New York",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 410,
+                "from": "Rio de Janeiro",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 220,
+                "from": "Mexico City",
+                "to": "Los Angeles"
+            },
+            {
+                "weight": 540,
+                "from": "New York",
+                "to": "Cairo"
+            },
+            {
+                "weight": 680,
+                "from": "New York",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 400,
+                "from": "Tokyo",
+                "to": "Delhi"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Sydney"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Beijing"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 420,
+                "from": "Seoul",
+                "to": "Singapore"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Dubai"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 800,
+                "from": "Tokyo",
+                "to": "Rome"
+            },
+            {
+                "weight": 105,
+                "from": "Rome",
+                "to": "Paris"
+            },
+            {
+                "weight": 160,
+                "from": "Rome",
+                "to": "Moscow"
+            },
+            {
+                "weight": 150,
+                "from": "Moscow",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 160,
+                "from": "Istanbul",
+                "to": "Berlin"
+            },
+            {
+                "weight": 40,
+                "from": "Berlin",
+                "to": "London"
+            },
+            {
+                "weight": 85,
+                "from": "London",
+                "to": "Toronto"
+            }
+        ],
+        "totalCost": 7290,
+        "algorithm": "Prim"
+    },
+    {
+        "graphName": "large_graphs.json_graph20",
+        "operations": 0,
+        "executionTimeMs": 0,
+        "edges": [
+            {
+                "weight": 40,
+                "from": "London",
+                "to": "Berlin"
+            },
+            {
+                "weight": 85,
+                "from": "Toronto",
+                "to": "London"
+            },
+            {
+                "weight": 105,
+                "from": "Paris",
+                "to": "Rome"
+            },
+            {
+                "weight": 120,
+                "from": "Beijing",
+                "to": "Seoul"
+            },
+            {
+                "weight": 150,
+                "from": "Istanbul",
+                "to": "Moscow"
+            },
+            {
+                "weight": 160,
+                "from": "Moscow",
+                "to": "Rome"
+            },
+            {
+                "weight": 160,
+                "from": "Berlin",
+                "to": "Istanbul"
+            },
+            {
+                "weight": 220,
+                "from": "Los Angeles",
+                "to": "Mexico City"
+            },
+            {
+                "weight": 380,
+                "from": "Dubai",
+                "to": "Bangkok"
+            },
+            {
+                "weight": 400,
+                "from": "Delhi",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 410,
+                "from": "Mexico City",
+                "to": "Rio de Janeiro"
+            },
+            {
+                "weight": 420,
+                "from": "Seoul",
+                "to": "Singapore"
+            },
+            {
+                "weight": 430,
+                "from": "Rio de Janeiro",
+                "to": "New York"
+            },
+            {
+                "weight": 540,
+                "from": "Cairo",
+                "to": "New York"
+            },
+            {
+                "weight": 630,
+                "from": "Singapore",
+                "to": "Dubai"
+            },
+            {
+                "weight": 680,
+                "from": "New York",
+                "to": "Tokyo"
+            },
+            {
+                "weight": 780,
+                "from": "Tokyo",
+                "to": "Sydney"
+            },
+            {
+                "weight": 780,
+                "from": "Sydney",
+                "to": "Beijing"
+            },
+            {
+                "weight": 800,
+                "from": "Rome",
+                "to": "Tokyo"
+            }
+        ],
+        "totalCost": 7290,
+        "algorithm": "Kruskal"
+    }
+]
