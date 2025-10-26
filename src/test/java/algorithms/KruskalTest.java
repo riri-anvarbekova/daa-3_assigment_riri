@@ -12,38 +12,40 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class KruskalTest {
+public class  KruskalTest {
 
     @Test
-    void testSmallGraph() throws IOException {
-        Graph g = GraphIO.readGraphFromJson("src/main/java/app/input/small_graphs.json");
-        MSTResult result = KruskalMST.kruskal(g);
-
-        assertNotNull(result.mstEdges, "MST не должно быть null");
-        List<Edge> mst = result.mstEdges;
-
-        assertEquals(g.vertices.size() - 1, mst.size(), "MST должно иметь V-1 рёбер");
-        assertTrue(result.metrics.totalCost >= 0);
-        assertTrue(result.metrics.operationCount >= 0);
-        assertTrue(result.metrics.executionTimeMs >= 0);
+    void testSmallGraphs() throws IOException {
+        List<Graph> graphs = GraphIO.readGraphsFromJson("src/main/java/app/input/small_graphs.json");
+        for (Graph g : graphs) {
+            MSTResult result = KruskalMST.kruskal(g);
+            List<Edge> mst = result.mstEdges;
+            assertNotNull(mst);
+            assertEquals(g.vertices.size() - 1, mst.size());
+            assertTrue(result.metrics.totalCost >= 0);
+            assertTrue(result.metrics.operationCount >= 0);
+            assertTrue(result.metrics.executionTimeMs >= 0);
+        }
     }
 
     @Test
-    void testMediumGraph() throws IOException {
-        Graph g = GraphIO.readGraphFromJson("src/main/java/app/input/medium_graphs.json");
-        MSTResult result = KruskalMST.kruskal(g);
-
-        assertEquals(g.vertices.size() - 1, result.mstEdges.size());
-        assertTrue(result.metrics.executionTimeMs >= 0);
+    void testMediumGraphs() throws IOException {
+        List<Graph> graphs = GraphIO.readGraphsFromJson("src/main/java/app/input/medium_graphs.json");
+        for (Graph g : graphs) {
+            MSTResult result = KruskalMST.kruskal(g);
+            assertEquals(g.vertices.size() - 1, result.mstEdges.size());
+            assertTrue(result.metrics.executionTimeMs >= 0);
+        }
     }
 
     @Test
-    void testLargeGraph() throws IOException {
-        Graph g = GraphIO.readGraphFromJson("src/main/java/app/input/large_graphs.json");
-        MSTResult result = KruskalMST.kruskal(g);
-
-        assertEquals(g.vertices.size() - 1, result.mstEdges.size());
-        assertTrue(result.metrics.executionTimeMs >= 0);
+    void testLargeGraphs() throws IOException {
+        List<Graph> graphs = GraphIO.readGraphsFromJson("src/main/java/app/input/large_graphs.json");
+        for (Graph g : graphs) {
+            MSTResult result = KruskalMST.kruskal(g);
+            assertEquals(g.vertices.size() - 1, result.mstEdges.size());
+            assertTrue(result.metrics.executionTimeMs >= 0);
+        }
     }
 }
 

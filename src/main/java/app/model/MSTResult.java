@@ -1,14 +1,11 @@
 package app.model;
 
 import java.util.List;
-import app.algorithms.Metrics;
 
 public class MSTResult {
     public List<Edge> mstEdges;
-    public Metrics metrics;
+    public int totalCost;
+    public long executionTimeMs;
+    public int operationCount;
 
-    public MSTResult(List<Edge> mstEdges, Metrics metrics) {
-        this.mstEdges = mstEdges;
-        this.metrics = metrics;
-    }
 }

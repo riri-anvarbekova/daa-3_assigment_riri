@@ -1,7 +1,8 @@
 package app.model;
 
 public class Edge implements Comparable<Edge> {
-    public String from, to;
+    public String from;
+    public String to;
     public int weight;
 
     public Edge(String from, String to, int weight) {
@@ -17,7 +18,8 @@ public class Edge implements Comparable<Edge> {
 
     @Override
     public String toString() {
-        return from + " - " + to + " (" + weight + ")";
+        return from + " - " + to + " : " + weight;
     }
 }
+
 

@@ -1,21 +1,20 @@
-
-[
-  {
-    "graph_id": "medium_1",
-    "nodes": ["Almaty","Astana","Shymkent","Karaganda","Aktobe","Pavlodar","Taraz","Ust-Kamenogorsk","Kostanay","Kyzylorda"],
-    "edges": [
-      {"from":"Almaty","to":"Astana","weight":300},
-      {"from":"Almaty","to":"Shymkent","weight":200},
-      {"from":"Astana","to":"Karaganda","weight":180},
-      {"from":"Karaganda","to":"Aktobe","weight":350},
-      {"from":"Shymkent","to":"Kyzylorda","weight":150},
-      {"from":"Aktobe","to":"Pavlodar","weight":400},
-      {"from":"Pavlodar","to":"Ust-Kamenogorsk","weight":450},
-      {"from":"Taraz","to":"Shymkent","weight":220},
-      {"from":"Kostanay","to":"Astana","weight":270},
-      {"from":"Kyzylorda","to":"Taraz","weight":160}
-    ]
-  },
+[ {
+  "graph_id": "medium_1",
+  "nodes": ["Almaty","Astana","Shymkent","Karaganda","Aktobe","Pavlodar","Taraz","Ust-Kamenogorsk","Kostanay","Kyzylorda"],
+  "edges": [
+    {"from":"Almaty","to":"Astana","weight":300},
+    {"from":"Almaty","to":"Shymkent","weight":200},
+    {"from":"Astana","to":"Karaganda","weight":180},
+    {"from":"Karaganda","to":"Aktobe","weight":350},
+    {"from":"Aktobe","to":"Pavlodar","weight":400},
+    {"from":"Shymkent","to":"Taraz","weight":220},
+    {"from":"Taraz","to":"Kyzylorda","weight":160},
+    {"from":"Pavlodar","to":"Ust-Kamenogorsk","weight":450},
+    {"from":"Kostanay","to":"Astana","weight":270},
+    {"from":"Kyzylorda","to":"Shymkent","weight":150},
+    {"from":"Karaganda","to":"Pavlodar","weight":300}
+  ]
+},
   {
     "graph_id": "medium_2",
     "nodes": ["Almaty","Astana","Shymkent","Karaganda","Aktobe","Pavlodar","Taraz","Ust-Kamenogorsk","Kostanay","Kyzylorda","Semey"],
@@ -29,7 +28,9 @@
       {"from":"Taraz","to":"Kyzylorda","weight":180},
       {"from":"Kostanay","to":"Astana","weight":270},
       {"from":"Semey","to":"Ust-Kamenogorsk","weight":220},
-      {"from":"Shymkent","to":"Kyzylorda","weight":160}
+      {"from":"Shymkent","to":"Kyzylorda","weight":160},
+      {"from":"Semey","to":"Karaganda","weight":210},
+      {"from":"Semey","to":"Aktobe","weight":300}
     ]
   },
   {
@@ -45,7 +46,9 @@
       {"from":"Kyzylorda","to":"Shymkent","weight":150},
       {"from":"Semey","to":"Ust-Kamenogorsk","weight":220},
       {"from":"Ekibastuz","to":"Pavlodar","weight":180},
-      {"from":"Taraz","to":"Aktobe","weight":300}
+      {"from":"Taraz","to":"Aktobe","weight":300},
+      {"from":"Ekibastuz","to":"Karaganda","weight":200},
+      {"from":"Almaty","to":"Taraz","weight":250}
     ]
   },
   {
@@ -62,7 +65,9 @@
       {"from":"Semey","to":"Ust-Kamenogorsk","weight":230},
       {"from":"Ekibastuz","to":"Pavlodar","weight":200},
       {"from":"Taraz","to":"Aktobe","weight":310},
-      {"from":"Zhezkazgan","to":"Karaganda","weight":150}
+      {"from":"Zhezkazgan","to":"Karaganda","weight":150},
+      {"from":"Zhezkazgan","to":"Aktobe","weight":180},
+      {"from":"Almaty","to":"Ekibastuz","weight":220}
     ]
   },
   {
@@ -80,7 +85,9 @@
       {"from":"Semey","to":"Ust-Kamenogorsk","weight":220},
       {"from":"Ekibastuz","to":"Pavlodar","weight":180},
       {"from":"Zhezkazgan","to":"Karaganda","weight":150},
-      {"from":"Atyrau","to":"Aktobe","weight":200}
+      {"from":"Atyrau","to":"Aktobe","weight":200},
+      {"from":"Atyrau","to":"Pavlodar","weight":180},
+      {"from":"Taraz","to":"Aktobe","weight":210}
     ]
   },
   {
@@ -99,7 +106,9 @@
       {"from":"Taraz","to":"Aktobe","weight":310},
       {"from":"Zhezkazgan","to":"Karaganda","weight":150},
       {"from":"Atyrau","to":"Aktobe","weight":200},
-      {"from":"Oral","to":"Aktobe","weight":250}
+      {"from":"Oral","to":"Aktobe","weight":250},
+      {"from":"Oral","to":"Pavlodar","weight":220},
+      {"from":"Almaty","to":"Taraz","weight":210}
     ]
   },
   {
@@ -119,7 +128,9 @@
       {"from":"Zhezkazgan","to":"Karaganda","weight":150},
       {"from":"Atyrau","to":"Aktobe","weight":200},
       {"from":"Oral","to":"Aktobe","weight":250},
-      {"from":"Temirtau","to":"Karaganda","weight":120}
+      {"from":"Temirtau","to":"Karaganda","weight":120},
+      {"from":"Temirtau","to":"Astana","weight":140},
+      {"from":"Shymkent","to":"Aktobe","weight":180}
     ]
   },
   {
@@ -140,7 +151,9 @@
       {"from":"Atyrau","to":"Aktobe","weight":200},
       {"from":"Oral","to":"Aktobe","weight":250},
       {"from":"Temirtau","to":"Karaganda","weight":120},
-      {"from":"Turkestan","to":"Shymkent","weight":100}
+      {"from":"Turkestan","to":"Shymkent","weight":100},
+      {"from":"Turkestan","to":"Taraz","weight":130},
+      {"from":"Turkestan","to":"Aktobe","weight":210}
     ]
   },
   {
@@ -162,7 +175,9 @@
       {"from":"Oral","to":"Aktobe","weight":250},
       {"from":"Temirtau","to":"Karaganda","weight":120},
       {"from":"Turkestan","to":"Shymkent","weight":100},
-      {"from":"Baikonur","to":"Atyrau","weight":220}
+      {"from":"Baikonur","to":"Atyrau","weight":220},
+      {"from":"Baikonur","to":"Aktobe","weight":200},
+      {"from":"Baikonur","to":"Taraz","weight":210}
     ]
   },
   {
@@ -186,7 +201,9 @@
       {"from":"Turkestan","to":"Shymkent","weight":100},
       {"from":"Baikonur","to":"Atyrau","weight":220},
       {"from":"Rudny","to":"Aktobe","weight":180},
-      {"from":"Stepnogorsk","to":"Karaganda","weight":160}
+      {"from":"Stepnogorsk","to":"Karaganda","weight":160},
+      {"from":"Stepnogorsk","to":"Aktobe","weight":150},
+      {"from":"Rudny","to":"Karaganda","weight":200}
     ]
   }
 ]

@@ -15,14 +15,18 @@ public class KruskalMST {
             for (String v : vertices) parent.put(v, v);
         }
 
-        public String find(String x) {
-            if (!parent.get(x).equals(x)) parent.put(x, find(parent.get(x)));
+        public String find(String x, int[] operationCount) {
+            operationCount[0]++;
+            if (!parent.get(x).equals(x)) {
+                parent.put(x, find(parent.get(x), operationCount));
+            }
             return parent.get(x);
         }
 
-        public boolean union(String x, String y) {
-            String rootX = find(x);
-            String rootY = find(y);
+        public boolean union(String x, String y, int[] operationCount) {
+            String rootX = find(x, operationCount);
+            String rootY = find(y, operationCount);
+            operationCount[0]++;
             if (rootX.equals(rootY)) return false;
             parent.put(rootX, rootY);
             return true;
@@ -30,25 +34,33 @@ public class KruskalMST {
     }
 
     public static MSTResult kruskal(Graph graph) {
-        Metrics metrics = new Metrics();
-        metrics.numVertices = graph.vertices.size();
-        metrics.numEdges = graph.edges.size();
-
-        long startTime = System.currentTimeMillis();
+        MSTResult result = new MSTResult();
         List<Edge> mstEdges = new ArrayList<>();
+        int totalCost = 0;
+        int[] operationCount = new int[]{0};
+
+        long startTime = System.nanoTime();
+
         UnionFind uf = new UnionFind(graph.vertices);
 
         List<Edge> sortedEdges = new ArrayList<>(graph.edges);
         Collections.sort(sortedEdges);
+        operationCount[0] += sortedEdges.size();
 
         for (Edge e : sortedEdges) {
-            if (uf.union(e.from, e.to)) {
+            if (uf.union(e.from, e.to, operationCount)) {
                 mstEdges.add(e);
-                metrics.totalCost += e.weight;
+                totalCost += e.weight;
             }
         }
 
-        metrics.executionTimeMs = System.currentTimeMillis() - startTime;
-        return new MSTResult(mstEdges, metrics);
+        long endTime = System.nanoTime();
+
+        result.mstEdges = mstEdges;
+        result.totalCost = totalCost;
+        result.operationCount = operationCount[0];
+        result.executionTimeMs = (endTime - startTime) / 1_000_000;
+
+        return result;
     }
 }
