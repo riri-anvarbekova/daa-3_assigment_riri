@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f19d92ad-5054-4f26-834e-b4b895080254" name="Changes" comment="feat(app):last" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;riri-anvarbekova&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/riri-anvarbekova/daa-3_assigment_riri.git&quot;,
+    &quot;accountId&quot;: &quot;d6a3a71d-d64a-456d-a3eb-f2d2f5575193&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="34bAYytK3ElVXoWMG4VcfK0QBqp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GraphRunner.executor": "Run",
+    "Application.Main.executor": "Run",
+    "JUnit.KruskalTest.executor": "Run",
+    "JUnit.KruskalTest.testLargeGraph.executor": "Run",
+    "JUnit.KruskalTest.testMediumGraphs.executor": "Run",
+    "JUnit.MSTTest.executor": "Run",
+    "JUnit.PrimTest (1).executor": "Run",
+    "JUnit.PrimTest.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Karina/Desktop/libs",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Karina\Desktop\daa-3_assigment\src\main\java\app\input" />
+      <recent name="C:\Users\Karina\Desktop\daa-3_assigment\src\main\resources" />
+      <recent name="C:\Users\Karina\Desktop\daa-3_assigment\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GraphRunner">
+    <configuration name="GraphRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.GraphRunner" />
+      <module name="daa-3_assigment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KruskalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="daa-3_assigment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.KruskalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KruskalTest.testMediumGraphs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="daa-3_assigment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.KruskalTest" />
+      <option name="METHOD_NAME" value="testMediumGraphs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="daa-3_assigment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.MSTTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="daa-3_assigment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.PrimTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GraphRunner" />
+        <item itemvalue="JUnit.KruskalTest.testMediumGraphs" />
+        <item itemvalue="JUnit.MSTTest" />
+        <item itemvalue="JUnit.KruskalTest" />
+        <item itemvalue="JUnit.PrimTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f19d92ad-5054-4f26-834e-b4b895080254" name="Changes" comment="" />
+      <created>1761471953333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761471953333</updated>
+    </task>
+    <task id="LOCAL-00001" summary="feat(model): add Edge, Graph, MSTResult">
+      <option name="closed" value="true" />
+      <created>1761472512634</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761472512634</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat(algorithms): implement Prim and Kruskal algorithms with Union-Find">
+      <option name="closed" value="true" />
+      <created>1761472704509</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761472704509</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat(app): add Main class to process graphs and export results">
+      <option name="closed" value="true" />
+      <created>1761479644971</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761479644971</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat(app): add test for algorithms">
+      <option name="closed" value="true" />
+      <created>1761497045448</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761497045448</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat(app): add test for algorithms">
+      <option name="closed" value="true" />
+      <created>1761497085999</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761497085999</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat(app): add test for algorithms">
+      <option name="closed" value="true" />
+      <created>1761497097696</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761497097696</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat(app):last">
+      <option name="closed" value="true" />
+      <created>1761503202164</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761503202164</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(model): add Edge, Graph, MSTResult" />
+    <MESSAGE value="feat(algorithms): implement Prim and Kruskal algorithms with Union-Find" />
+    <MESSAGE value="feat(app): add Main class to process graphs and export results" />
+    <MESSAGE value="feat(app): add test for algorithms" />
+    <MESSAGE value="feat(app):last" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(app):last" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/algorithms/KruskalTest.java</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/app/GraphRunner.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
