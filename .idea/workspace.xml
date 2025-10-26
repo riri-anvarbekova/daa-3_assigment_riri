@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f19d92ad-5054-4f26-834e-b4b895080254" name="Changes" comment="feat(app):last" />
+    <list default="true" id="f19d92ad-5054-4f26-834e-b4b895080254" name="Changes" comment="feat(app):last">
+      <change beforePath="$PROJECT_DIR$/output/output.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/output.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/output.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -229,7 +238,8 @@
     <MESSAGE value="feat(app): add Main class to process graphs and export results" />
     <MESSAGE value="feat(app): add test for algorithms" />
     <MESSAGE value="feat(app):last" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(app):last" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
