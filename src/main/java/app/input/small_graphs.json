@@ -1,0 +1,56 @@
+[
+  {
+    "graph_id": "small_1",
+    "nodes": ["Almaty", "Astana", "Shymkent", "Karaganda"],
+    "edges": [
+      {"from": "Almaty", "to": "Astana", "weight": 300},
+      {"from": "Almaty", "to": "Shymkent", "weight": 200},
+      {"from": "Astana", "to": "Shymkent", "weight": 250},
+      {"from": "Shymkent", "to": "Karaganda", "weight": 150}
+    ]
+  },
+  {
+    "graph_id": "small_2",
+    "nodes": ["Almaty", "Astana", "Shymkent", "Karaganda", "Aktobe"],
+    "edges": [
+      {"from": "Almaty", "to": "Astana", "weight": 320},
+      {"from": "Almaty", "to": "Shymkent", "weight": 180},
+      {"from": "Astana", "to": "Karaganda", "weight": 200},
+      {"from": "Shymkent", "to": "Karaganda", "weight": 150},
+      {"from": "Karaganda", "to": "Aktobe", "weight": 400}
+    ]
+  },
+  {
+    "graph_id": "small_3",
+    "nodes": ["Almaty", "Astana", "Shymkent", "Aktau"],
+    "edges": [
+      {"from": "Almaty", "to": "Astana", "weight": 300},
+      {"from": "Astana", "to": "Shymkent", "weight": 220},
+      {"from": "Shymkent", "to": "Aktau", "weight": 350},
+      {"from": "Almaty", "to": "Aktau", "weight": 500}
+    ]
+  },
+  {
+    "graph_id": "small_4",
+    "nodes": ["Almaty", "Astana", "Shymkent", "Karaganda", "Aktobe", "Pavlodar"],
+    "edges": [
+      {"from": "Almaty", "to": "Astana", "weight": 300},
+      {"from": "Astana", "to": "Karaganda", "weight": 180},
+      {"from": "Karaganda", "to": "Shymkent", "weight": 220},
+      {"from": "Shymkent", "to": "Aktobe", "weight": 350},
+      {"from": "Aktobe", "to": "Pavlodar", "weight": 400},
+      {"from": "Almaty", "to": "Pavlodar", "weight": 600}
+    ]
+  },
+  {
+    "graph_id": "small_5",
+    "nodes": ["Almaty", "Astana", "Shymkent", "Karaganda", "Aktobe"],
+    "edges": [
+      {"from": "Almaty", "to": "Astana", "weight": 280},
+      {"from": "Almaty", "to": "Shymkent", "weight": 200},
+      {"from": "Astana", "to": "Karaganda", "weight": 150},
+      {"from": "Shymkent", "to": "Aktobe", "weight": 320},
+      {"from": "Karaganda", "to": "Aktobe", "weight": 180}
+    ]
+  }
+]

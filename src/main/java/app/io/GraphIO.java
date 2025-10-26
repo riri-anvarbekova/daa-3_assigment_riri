@@ -2,78 +2,105 @@ package app.io;
 
 import app.model.Edge;
 import app.model.Graph;
-import java.io.*;
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.*;
-import org.json.*;
-import org.json.JSONObject;
-import org.json.JSONArray;
+import java.util.ArrayList;
+import java.util.List;
 
 public class GraphIO {
 
-    public static Graph readGraphFromJson(String filePath) throws IOException {
-        Graph graph = new Graph();
-        String content = new String(Files.readAllBytes(Paths.get(filePath)));
-        JSONObject json = new JSONObject(content);
+    // ------------------- Чтение графа из JSON -------------------
+    public static Graph readGraphFromJson(String path) throws IOException {
+        String content = new String(Files.readAllBytes(Paths.get(path)));
+        JSONArray graphsArray = new JSONArray(content);
 
-        JSONArray nodes = json.getJSONArray("nodes");
+        if (graphsArray.length() == 0) {
+            throw new IllegalArgumentException("JSON массив пустой: " + path);
+        }
+
+        JSONObject graphObject = graphsArray.getJSONObject(0);
+        Graph g = new Graph();
+
+        // Добавляем вершины
+        JSONArray nodes = graphObject.getJSONArray("nodes");
         for (int i = 0; i < nodes.length(); i++) {
-            graph.addVertex(nodes.getString(i));
+            g.addVertex(nodes.getString(i));
         }
 
-        JSONArray edges = json.getJSONArray("edges");
+        // Добавляем рёбра
+        JSONArray edges = graphObject.getJSONArray("edges");
         for (int i = 0; i < edges.length(); i++) {
-            JSONObject e = edges.getJSONObject(i);
-            graph.addEdge(e.getString("from"), e.getString("to"), e.getInt("weight"));
+            JSONObject edge = edges.getJSONObject(i);
+            String from = edge.getString("from");
+            String to = edge.getString("to");
+            int weight = edge.getInt("weight");
+            g.addEdge(from, to, weight);
         }
 
-        return graph;
+        return g;
     }
 
-    public static void writeGraphResultToJson(String filePath, List<ResultEntry> results) throws IOException {
-        JSONObject outJson = new JSONObject();
-        JSONArray arr = new JSONArray();
-        for (ResultEntry r : results) arr.put(r.toJson());
-        outJson.put("results", arr);
-        Files.write(Paths.get(filePath), outJson.toString(4).getBytes());
+    // ------------------- Запись результатов MST в JSON -------------------
+    public static void writeGraphResultToJson(String path, List<ResultEntry> results) throws IOException {
+        // Создание папки, если её нет
+        File file = new File(path);
+        File parent = file.getParentFile();
+        if (parent != null && !parent.exists()) {
+            parent.mkdirs();
+        }
+
+        JSONArray jsonResults = new JSONArray();
+
+        for (ResultEntry r : results) {
+            JSONObject graphJson = new JSONObject();
+            graphJson.put("graphName", r.graphName);
+            graphJson.put("algorithm", r.algorithm);
+            graphJson.put("totalCost", r.totalCost);
+            graphJson.put("operations", r.operations);
+            graphJson.put("executionTimeMs", r.execTimeMs);
+
+            JSONArray edgesJson = new JSONArray();
+            if (r.edges != null) {
+                for (Edge e : r.edges) {
+                    JSONObject edgeJson = new JSONObject();
+                    edgeJson.put("from", e.from);
+                    edgeJson.put("to", e.to);
+                    edgeJson.put("weight", e.weight);
+                    edgesJson.put(edgeJson);
+                }
+            }
+            graphJson.put("edges", edgesJson);
+
+            jsonResults.put(graphJson);
+        }
+
+        try (FileWriter writer = new FileWriter(file)) {
+            writer.write(jsonResults.toString(4));
+        }
     }
 
+    // ------------------- Внутренний класс ResultEntry -------------------
     public static class ResultEntry {
-        public String graphId;
-        public List<Edge> mstEdges;
-        public int totalCost;
-        public long operations;
-        public double execTimeMs;
+        public String graphName;
+        public List<Edge> edges;
+        public long totalCost;
+        public int operations;
+        public long execTimeMs;
         public String algorithm;
 
-        public ResultEntry(String graphId, List<Edge> mstEdges, int totalCost, long operations, double execTimeMs, String algorithm) {
-            this.graphId = graphId;
-            this.mstEdges = mstEdges;
+        public ResultEntry(String graphName, List<Edge> edges, long totalCost, int operations, long execTimeMs, String algorithm) {
+            this.graphName = graphName;
+            this.edges = edges;
             this.totalCost = totalCost;
             this.operations = operations;
             this.execTimeMs = execTimeMs;
             this.algorithm = algorithm;
-        }
-
-        public JSONObject toJson() {
-            JSONObject obj = new JSONObject();
-            obj.put("graph_id", graphId);
-            obj.put("algorithm", algorithm);
-            obj.put("total_cost", totalCost);
-            obj.put("operations", operations);
-            obj.put("execution_time_ms", execTimeMs);
-
-            JSONArray edgesArr = new JSONArray();
-            for (Edge e : mstEdges) {
-                JSONObject edge = new JSONObject();
-                edge.put("from", e.from);
-                edge.put("to", e.to);
-                edge.put("weight", e.weight);
-                edgesArr.put(edge);
-            }
-            obj.put("mst_edges", edgesArr);
-            return obj;
         }
     }
 }

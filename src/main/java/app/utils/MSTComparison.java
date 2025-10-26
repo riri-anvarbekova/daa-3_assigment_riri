@@ -29,7 +29,7 @@ public class MSTComparison {
             this.algorithm = algorithm;
             this.totalCost = res.metrics.totalCost;
             this.executionTimeMs = res.metrics.executionTimeMs;
-            this.operations = res.metrics.operationsCount;
+            this.operations = res.metrics.operationCount;
         }
     }
 }

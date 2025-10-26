@@ -4,6 +4,8 @@ public class MSTMetrics {
     public int totalCost;
     public int operationsCount;
     public double executionTimeMs;
+    public int operations;
+    public int execTimeMs;
 
     public MSTMetrics(int totalCost, int operationsCount, double executionTimeMs) {
         this.totalCost = totalCost;
